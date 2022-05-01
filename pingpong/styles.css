@@ -1,0 +1,12 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(206, 206, 206);
+    margin: 0;
+}
+
+canvas{
+    background-color: black;
+}

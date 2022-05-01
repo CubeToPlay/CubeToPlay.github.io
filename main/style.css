@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    height: 60px;
+    padding: 0 20px;
+}
+
+nav{
+    background-color: rgb(163, 151, 151);
+    height: 30px;
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0;
+}
+
+/* li{
+    max-width: 200px;
+} */
+
+p{
+    margin: 0;
+}
+
+
+img.icon{
+    width: 40px;
+    padding: 10px 10px 10px 0;
+    float: left;
+}
+
+img.icon:hover{
+    opacity: 0.8;
+}
+
+
+li.top_button{
+    padding: 21px 0;
+    float: left;
+}
+
+li.side_button{
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+a.side_button{
+    padding: 10px 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a.top_button{
+    padding: 21px 10px 22px 10px;
+    font-weight: bold;
+}
+
+a.button{
+    text-decoration: none;
+}
+a.button:link, a.button:visited{
+    color: black;
+    background-color: white;
+}
+a.button:hover, a.button:active{
+    color: white;
+    background-color: rgb(102, 110, 112);
+}
+
+div.time{
+    margin: 5px 0;
+
+    padding: 5px 3px;
+
+    background-color: rgb(235, 235, 235);
+
+    float: right;
+    text-align: right;
+    font-weight: bold;
+}
+
+div.left_sidebar{
+    /* height: 1000px; */
+    background-color: rgb(226, 226, 226);
+    max-width: 200px;
+    float: left;
+}
+
+div.options{
+    padding: 8px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 0 5px;
+}
+
+div.options:hover{
+    padding: 15px 20px;
+    background-color:rgb(226, 226, 226);
+    color: white;
+}
+
+div.dropdown{
+    display: none;
+    position: absolute;
+    background-color:rgb(226, 226, 226);
+    min-width: 160px;
+    padding: 16px 16px;
+    margin: 0 20px 0 0;
+    right: 0;
+    z-index: 1;
+}
+
+div.options:hover div.dropdown{
+    display: block;
+}
