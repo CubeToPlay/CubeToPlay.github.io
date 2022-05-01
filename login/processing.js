@@ -56,7 +56,7 @@ DROPREGION.addEventListener("drop", function(e){
                     out[c] = String.fromCharCode(NV[Math.round(Math.random() * (NV.length-1))]) + input[c];
                 }
                 document.cookie = "access=" + encodeURIComponent(out.join("")) + "; path=/;"
-                location.href = "https://cubetoplay.ga/site/main/core.html"
+                location.href = "https://cubetoplay.ga/main/core.html"
             }
         };
 
@@ -86,7 +86,7 @@ function getCookie(search) {
 }
 
 if (getCookie("access").length > 1 && PASS.match(new RegExp('[^' + getCookie("access") + ']', 'g')).join("") === PASS) {
-    location.href = "https://cubetoplay.ga/site/main/core.html"
+    location.href = "https://cubetoplay.ga/main/core.html"
 }
 
 DROPREGION.addEventListener('dragenter', preventDefault, false)

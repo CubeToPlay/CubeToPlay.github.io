@@ -19,6 +19,6 @@ function getCookie(search) {
 // console.log(getCookie("access").length);
 
 if (getCookie("access").length < 1 || PASS.match(new RegExp('[^' + getCookie("access") + ']', 'g')).join("") !== PASS) {
-    location.href = "https://cubetoplay.ga/site/login/login.html"
+    location.href = "https://cubetoplay.ga/login/login.html"
     // console.log("YES")
 }
