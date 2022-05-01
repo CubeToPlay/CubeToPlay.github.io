@@ -46,7 +46,7 @@ class Ball{
         this.radius = r;
         this.mass = m
         this.position = new CVector(px, py);
-        this.velocity = new PVector(Math.PI/4, 200);
+        this.velocity = new PVector(Math.PI/5, 300);
         this.acceleration = new PVector(0, 0);
 
         this.saved = {position: new CVector(px, py), acceleration: new PVector(0, 0), velocity: new PVector(Math.PI/4, 120)}
