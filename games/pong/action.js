@@ -1,9 +1,9 @@
 const GAMEWINDOW = document.getElementById("window");
 const CONTEXT = GAMEWINDOW.getContext("2d");
 
-const MS = 1000
+const milisecond = 1000;
 const FPS = 120;
-const FS = MS/FPS;
+const frameTime = milisecond/FPS;
 
 class PVector {
     constructor (radian, speed){
@@ -53,9 +53,14 @@ class Ball{
     }
 
     action(){
-        this.saved.position.x = this.position.x; this.saved.position.y = this.position.y;
-        this.saved.acceleration.radian = this.acceleration.radian; this.saved.acceleration.speed = this.acceleration.speed;
-        this.saved.velocity.radian = this.velocity.radian; this.saved.velocity.speed = this.velocity.speed;
+        this.saved.position.x = this.position.x;
+        this.saved.position.y = this.position.y;
+
+        this.saved.acceleration.radian = this.acceleration.radian;
+        this.saved.acceleration.speed = this.acceleration.speed;
+
+        this.saved.velocity.radian = this.velocity.radian;
+        this.saved.velocity.speed = this.velocity.speed;
 
         this.position.addPolar(this.velocity.radian, this.velocity.speed/FPS);
         this.velocity.addPolar(this.acceleration.radian, this.acceleration.speed/FPS);
@@ -71,9 +76,6 @@ class Ball{
     }
 
     collision(){
-
-        // var point = {x: ,y: }
-
         if (this.position.y > 490){
             this.fallback();
             this.velocity.radian = bounce(this.velocity.radian, Math.PI/2 + Math.PI);
@@ -97,9 +99,14 @@ class Ball{
     }
 
     fallback(){
-        this.position.x = this.saved.position.x; this.position.y = this.saved.position.y;
-        this.acceleration.radian = this.saved.acceleration.radian; this.acceleration.speed = this.saved.acceleration.speed;
-        this.velocity.radian = this.saved.velocity.radian; this.velocity.speed = this.saved.velocity.speed;
+        this.position.x = this.saved.position.x;
+        this.position.y = this.saved.position.y;
+
+        this.acceleration.radian = this.saved.acceleration.radian;
+        this.acceleration.speed = this.saved.acceleration.speed;
+
+        this.velocity.radian = this.saved.velocity.radian;
+        this.velocity.speed = this.saved.velocity.speed;
     }
 }
 
@@ -134,4 +141,4 @@ function bounce(angle, normal){
     return angle + ((Math.PI/2 + normal)-(angle)) * 2;
 }
 
-setInterval(loop, FS);
+setInterval(loop, frameTime);
