@@ -78,23 +78,23 @@ class Ball{
     collision(){
         if (this.position.y > 490){
             this.fallback();
-            this.velocity.radian = bounce(this.velocity.radian, Math.PI/2 + Math.PI);
-            this.velocity.addPolar(Math.PI/2 + Math.PI, this.velocity.speed)
+            this.velocity.radian = Math.PI - this.velocity.radian;
+            // this.velocity.addPolar(Math.PI/2 + Math.PI, this.velocity.speed)
         }
 
         if (this.position.y < 10){
             this.fallback();
-            this.velocity.radian = bounce(this.velocity.radian, Math.PI/2);
+            this.velocity.radian = Math.PI - this.velocity.radian;
         }
 
         if (this.position.x > 740){
             this.fallback();
-            this.velocity.radian = bounce(this.velocity.radian,  Math.PI);
+            this.velocity.radian = this.velocity.radian * -1;
         }
 
         if (this.position.x < 10){
             this.fallback();
-            this.velocity.radian = bounce(this.velocity.radian, 0);
+            this.velocity.radian = this.velocity.radian * -1;
         }
     }
 
