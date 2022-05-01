@@ -128,3 +128,11 @@ div.dropdown{
 div.options:hover div.dropdown{
     display: block;
 }
+
+iframe.discord_widget{
+    margin: 150px 0 0 0;
+    display: block;
+    /* float: right; */
+    margin-right: auto;
+    margin-left: auto;
+}
