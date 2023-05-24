@@ -41,5 +41,5 @@ div.time {
     background-color: rgb(255, 255, 255);
     float: right;
     text-align: right;
-    font-weight: bold;
+    font-weight: 600;
 }
