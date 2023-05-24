@@ -1,3 +1,3 @@
 # CubeToPlay's Website
 
-Site: https://www.cubetoplay.com/
+Site: <a target="_blank"> https://www.cubetoplay.com/ </a>
