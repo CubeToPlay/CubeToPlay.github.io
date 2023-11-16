@@ -1,4 +1,7 @@
-﻿const GAMEWINDOW = document.getElementById("pong_canvas");
+export function run() {
+const GAMEWINDOW = document.getElementById("pong_canvas")
+
+console.log(GAMEWINDOW)
 
 const CONTEXT = GAMEWINDOW.getContext("2d");
 
@@ -186,7 +189,7 @@ class Paddle {
         var distance = ball.position.distance(nearest.get());
 
         if (distance <= ball.radius) {
-            if (ball.player != this.name) {
+            if (ball.player !== this.name) {
                 ball.player = this.name
                 ball.bounce += 1
             }
@@ -284,9 +287,9 @@ function display() {
     // Bounce Count
     CONTEXT.textAlign = "right";
     CONTEXT.font = "12px Arial";
-    CONTEXT.fillText(ball.bounce + " bounce" + ((ball.bounce == 1) ? "" : "s"), GAMEWINDOW.width - 10, GAMEWINDOW.height - 10);
+    CONTEXT.fillText(ball.bounce + " bounce" + ((ball.bounce === 1) ? "" : "s"), GAMEWINDOW.width - 10, GAMEWINDOW.height - 10);
 
-    if (ball.winner != "") {
+    if (ball.winner !== "") {
         CONTEXT.fillStyle = "rgb(0, 0, 0)";
         CONTEXT.fillRect(GAMEWINDOW.width / 4, GAMEWINDOW.height / 4, GAMEWINDOW.width / 2, GAMEWINDOW.height / 2);
 
@@ -347,5 +350,6 @@ window.addEventListener("keyup", function (event) {
 }, false);
 
 
-// Loop
-setInterval(pong_loop, TIME_PER_FRAME);
+
+    setInterval(pong_loop, TIME_PER_FRAME)
+}
