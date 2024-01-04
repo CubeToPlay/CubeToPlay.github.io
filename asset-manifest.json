@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e77d389a.css",
-    "main.js": "/static/js/main.671e0384.js",
-    "static/media/visping_capture_with_ping.png": "/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
-    "index.html": "/index.html",
-    "main.e77d389a.css.map": "/static/css/main.e77d389a.css.map",
-    "main.671e0384.js.map": "/static/js/main.671e0384.js.map"
+    "main.css": "/www.cubetoplay.com/static/css/main.e77d389a.css",
+    "main.js": "/www.cubetoplay.com/static/js/main.d9ce0c38.js",
+    "static/media/visping_capture_with_ping.png": "/www.cubetoplay.com/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
+    "index.html": "/www.cubetoplay.com/index.html",
+    "main.e77d389a.css.map": "/www.cubetoplay.com/static/css/main.e77d389a.css.map",
+    "main.d9ce0c38.js.map": "/www.cubetoplay.com/static/js/main.d9ce0c38.js.map"
   },
   "entrypoints": [
     "static/css/main.e77d389a.css",
-    "static/js/main.671e0384.js"
+    "static/js/main.d9ce0c38.js"
   ]
 }
