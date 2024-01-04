@@ -42,6 +42,7 @@ export default function NavBar() {
                         <NavLink path="/visping" text="Visping"/>
                         <NavLink path="/datapacks" text="Datapacks"/>
                         <NavLink path="/modpacks" text="Modpacks"/>
+                        <NavLink path="/roblox" text="Roblox"/>
                     </ul>
                 </div>
                 <div className="time text-dark" id="time"></div>
