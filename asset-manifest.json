@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e77d389a.css",
-    "main.js": "/static/js/main.671e0384.js",
-    "static/media/visping_capture_with_ping.png": "/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
-    "index.html": "/index.html",
-    "main.e77d389a.css.map": "/static/css/main.e77d389a.css.map",
-    "main.671e0384.js.map": "/static/js/main.671e0384.js.map"
+    "main.css": "/cubetoplay.github.io/static/css/main.e77d389a.css",
+    "main.js": "/cubetoplay.github.io/static/js/main.b5541cf2.js",
+    "static/media/visping_capture_with_ping.png": "/cubetoplay.github.io/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
+    "index.html": "/cubetoplay.github.io/index.html",
+    "main.e77d389a.css.map": "/cubetoplay.github.io/static/css/main.e77d389a.css.map",
+    "main.b5541cf2.js.map": "/cubetoplay.github.io/static/js/main.b5541cf2.js.map"
   },
   "entrypoints": [
     "static/css/main.e77d389a.css",
-    "static/js/main.671e0384.js"
+    "static/js/main.b5541cf2.js"
   ]
 }
