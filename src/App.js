@@ -21,14 +21,14 @@ export default function App() {
                     <main role="main" className="pb-3">
                     <Routes>
                         <Route exact path='/' element={<Home />} />
-                        <Route path='/about' element={<About />} />
-                        <Route path='/visping' element={<Visping />} />
-                        <Route path='/pong' element={<Pong />} />
-                        <Route path='/modpacks' element={<Modpacks />} />
-                        <Route path='/datapacks' element={<Datapacks />} />
-                        <Route path='/privacy' element={<Privacy />} />
-                        <Route path='/roblox' element={<Roblox />} />
-                        <Route path='/error' element={<Error />} />
+                        <Route path='/#/about' element={<About />} />
+                        <Route path='/#/visping' element={<Visping />} />
+                        <Route path='/#/pong' element={<Pong />} />
+                        <Route path='/#/modpacks' element={<Modpacks />} />
+                        <Route path='/#/datapacks' element={<Datapacks />} />
+                        <Route path='/#/privacy' element={<Privacy />} />
+                        <Route path='/#/roblox' element={<Roblox />} />
+                        <Route path='/#/error' element={<Error />} />
                     </Routes>
                     </main>
                 </div>
