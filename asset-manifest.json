@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e77d389a.css",
+    "main.js": "/static/js/main.fbe6817f.js",
+    "static/media/visping_capture_with_ping.png": "/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
+    "index.html": "/index.html",
+    "main.e77d389a.css.map": "/static/css/main.e77d389a.css.map",
+    "main.fbe6817f.js.map": "/static/js/main.fbe6817f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e77d389a.css",
+    "static/js/main.fbe6817f.js"
+  ]
+}
