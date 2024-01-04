@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer class="border-top footer text-muted">
             <div className="container">
-                &copy; 2023 - CubeToPlay - <NavLink path="/privacy" text="Privacy"/> - <NavLink path="/about" text="About"/>
+                &copy; 2023 - CubeToPlay - <NavLink path="/#/privacy" text="Privacy"/> - <NavLink path="/#/about" text="About"/>
             </div>
         </footer>
     )

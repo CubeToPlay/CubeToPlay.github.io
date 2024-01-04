@@ -4,7 +4,6 @@ export default function Modpacks() {
     return (
         <>
             <h1>Modpacks</h1>
-            <h2></h2>
             <p><a href="https://drive.google.com/uc?id=_ID_&export=download">Download</a></p>
             <p><a href="https://www.cubetoplay.ga/secret">Secret</a></p>
 

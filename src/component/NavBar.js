@@ -38,11 +38,11 @@ export default function NavBar() {
                 <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul className="navbar-nav flex-grow-1">
                         <NavLink path="/" text="Home"/>
-                        <NavLink path="/pong" text="Pong"/>
-                        <NavLink path="/visping" text="Visping"/>
-                        <NavLink path="/datapacks" text="Datapacks"/>
-                        <NavLink path="/modpacks" text="Modpacks"/>
-                        <NavLink path="/roblox" text="Roblox"/>
+                        <NavLink path="/#/pong" text="Pong"/>
+                        <NavLink path="/#/visping" text="Visping"/>
+                        <NavLink path="/#/datapacks" text="Datapacks"/>
+                        <NavLink path="/#/modpacks" text="Modpacks"/>
+                        <NavLink path="/#/roblox" text="Roblox"/>
                     </ul>
                 </div>
                 <div className="time text-dark" id="time"></div>
