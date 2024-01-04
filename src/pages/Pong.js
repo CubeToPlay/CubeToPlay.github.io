@@ -1,5 +1,5 @@
 export default function Pong() {
-    document.getElementById("title").prepend("Pong");
+    document.title = "Pong";
 
     return (
         <>

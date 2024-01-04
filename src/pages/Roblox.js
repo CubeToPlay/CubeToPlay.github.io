@@ -1,5 +1,6 @@
 export default function Roblox() {
-    document.getElementById("title").prepend("Roblox");
+    document.title = "Roblox";
+
     return (
         <>
             <h1>Roblox</h1>

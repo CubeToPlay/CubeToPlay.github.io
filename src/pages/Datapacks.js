@@ -1,7 +1,7 @@
 
 
 export default function Datapacks() {
-    document.getElementById("title").prepend("Datapacks");
+    document.title = "Datapacks";
     return(
         <>
             <h1>Datapacks</h1>

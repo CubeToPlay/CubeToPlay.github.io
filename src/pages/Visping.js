@@ -1,5 +1,5 @@
 export default function Visping() {
-    document.getElementById("title").prepend("Visping");
+    document.title = "Visping";
 
     return (
         <>

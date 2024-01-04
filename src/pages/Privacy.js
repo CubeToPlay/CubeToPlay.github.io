@@ -56,7 +56,7 @@ This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241)
 </div>`
 
 export default function Privacy() {
-    document.getElementById("title").prepend("Privacy");
+    document.title = "Privacy";
 
     return (
         <div dangerouslySetInnerHTML={{__html: content}}>

@@ -1,5 +1,5 @@
 export default function Error() {
-    document.getElementById("title").prepend("Error");
+    document.title = "Error";
     return (
         <>
             <h1 class="text-danger">Error.</h1>
