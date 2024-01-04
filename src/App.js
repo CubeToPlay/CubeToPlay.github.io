@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './component/NavBar';
 import Footer from './component/Footer';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -15,7 +15,7 @@ import Error from './pages/Error';
  
 export default function App() {
     return (
-        <Router>
+        <HashRouter>
             <Navbar/>
                 <div className="container">
                     <main role="main" className="pb-3">
@@ -33,6 +33,6 @@ export default function App() {
                     </main>
                 </div>
             <Footer/>
-        </Router>
+        </HashRouter>
     );
 }
