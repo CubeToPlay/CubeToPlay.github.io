@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e77d389a.css",
-    "main.js": "/static/js/main.f282c37c.js",
+    "main.js": "/static/js/main.e7710a1e.js",
     "static/media/visping_capture_with_ping.png": "/static/media/visping_capture_with_ping.c49ca15fdb49e2039a98.png",
     "index.html": "/index.html",
     "main.e77d389a.css.map": "/static/css/main.e77d389a.css.map",
-    "main.f282c37c.js.map": "/static/js/main.f282c37c.js.map"
+    "main.e7710a1e.js.map": "/static/js/main.e7710a1e.js.map"
   },
   "entrypoints": [
     "static/css/main.e77d389a.css",
-    "static/js/main.f282c37c.js"
+    "static/js/main.e7710a1e.js"
   ]
 }
