@@ -1,0 +1,3 @@
+[submodule "src/ping-pong"]
+	path = src/ping-pong
+	url = https://github.com/CubeToPlay/ping-pong.git
