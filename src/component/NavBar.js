@@ -1,3 +1,5 @@
+import { useLocation } from "react-router-dom/dist";
+
 const UPDATE_INTERVAL_MILLISECONDS = 1000.00;
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -25,6 +27,9 @@ function time_loop() {
 }
 
 export default function NavBar() {
+    const location = useLocation();
+    if (location.pathname.includes("map")) { return <></> }
+
     setInterval(time_loop, UPDATE_INTERVAL_MILLISECONDS);
 
     return(

@@ -4,3 +4,4 @@
 [submodule "src/Gopher-City-Bus"]
 	path = src/Gopher-City-Bus
 	url = https://github.umn.edu/joh20327/Gopher-City-Bus.git
+	branch = Develop
