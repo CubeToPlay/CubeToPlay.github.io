@@ -1,3 +1,6 @@
 [submodule "src/ping-pong"]
 	path = src/ping-pong
 	url = https://github.com/CubeToPlay/ping-pong.git
+[submodule "src/Gopher-City-Bus"]
+	path = src/Gopher-City-Bus
+	url = https://github.umn.edu/joh20327/Gopher-City-Bus.git
