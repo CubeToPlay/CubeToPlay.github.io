@@ -1,3 +1,1 @@
-# CubeToPlay's Website
-
-Site: <a target="_blank"> https://www.cubetoplay.com/ </a>
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
