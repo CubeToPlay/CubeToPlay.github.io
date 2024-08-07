@@ -1,0 +1,35 @@
+.Navbar {
+    position: fixed;
+    background-color: transparent;
+    min-width: 160px;
+    height: 100%;
+}
+
+.Navbar .menu {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.Navbar .socials {
+    position: absolute;
+    background-color: transparent;
+    top: 90%;
+    z-index: 1;
+}
+
+
+.Navbar .menu button {
+    background-color: transparent; /* Green background */
+    border-color: transparent;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%;
+    display: block; /* Make the buttons appear below each other */
+}
+
+.Navbar .socials a {
+    padding: 10px
+}
